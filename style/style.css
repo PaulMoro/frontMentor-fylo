@@ -1,5 +1,35 @@
 * {
   margin: 0px;
   padding: 0px;
+  text-align: center;
 }
 
+.header{
+  height: 150px;
+  background-color: hsl(218, 28%, 13%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_logo{
+  margin: 75px 0px 28px 80px;
+}
+
+.header_nav {
+  margin: 95px 80px 0px 0px;
+  width: 270px;
+  list-style: none;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.header_nav a:hover{
+  color: white;
+  text-decoration: underline;
+}
