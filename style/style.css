@@ -40,11 +40,9 @@ p, button, a {
 
 .header_nav a {
   text-decoration: none;
-  color: white;
 }
 
 .header_nav a:hover{
-  color: white;
   text-decoration: underline;
 }
 
@@ -64,7 +62,7 @@ p, button, a {
   width: 680px;
   margin: auto;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 40px;
   line-height: 1.5;
 }
 
@@ -78,7 +76,7 @@ p, button, a {
 }
 
 .intro_button {
-  margin: 35px;
+  margin: 25px 0px 60px;
   padding: 22px 90px;
   background-color: hsl(176, 68%, 64%);
   font-size: 18px;
@@ -93,35 +91,106 @@ p, button, a {
   width: 100%;
   height: 30vh;
   display: block;
-  top: 850px;
+  top: 800px;
   position: absolute;
   z-index: -1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* init Main */
 
 .main {
   background-color: hsl(218, 28%, 13%);
+  display: grid;
+  grid-template-columns: 185px 1fr 150px 1fr 185px;
+  grid-template-rows: 1fr 1fr;
 }
+
+#main_first{
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+#main_second{
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+}
+
+#main_thirdy{
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  padding-top: 100px;
+}
+
+#main_fourth{
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+  padding-top: 100px;
+}
+
+.main_details-img {
+
+  padding-bottom: 25px;
+}
+
+.main_details-title {
+  padding: 5px;
+}
+
+/* init Pich */
+
+.pich {
+  padding: 140px 80px 0px;
+  display: flex;
+}
+
+.pich_content{
+  margin-left: 80px;
+  text-align: left;
+}
+
+.pich_content h2 {
+  padding-top: 120px;
+  padding-bottom: 26px;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.pich_content p {
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+}
+
+.pich_content a {
+  text-decoration: none;
+}
+
+.pich_content a:hover {
+  text-decoration: underline;
+}
+
+/*  init Comments */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
