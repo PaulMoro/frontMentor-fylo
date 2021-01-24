@@ -141,6 +141,7 @@ p, button, a {
 .pich {
   padding: 140px 80px 0px;
   display: flex;
+  background-color: hsl(218, 28%, 13%);
 }
 
 .pich_content{
@@ -173,33 +174,38 @@ p, button, a {
 
 /*  init Comments */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.pich {
-  background-color: hsl(218, 28%, 13%);
-}
-
-
 .comments {
   background-color: hsl(218, 28%, 13%);
+  padding: 145px 0px 200px;
 }
+
+.comments_container {
+  margin: 0px 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.comments_container-content{
+  width: 30%;
+  height: 200px;
+  background-color: hsl(219, 30%, 18%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
